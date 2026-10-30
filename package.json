@@ -1,0 +1,28 @@
+{
+  "name": "opencode-lean-ctx",
+  "version": "1.0.0",
+  "description": "Routes shell commands through the lean-ctx binary's inline rewriter (compressed output) when it is installed.",
+  "type": "module",
+  "license": "MIT",
+  "author": "tpham4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph280996/opencode-lean-ctx.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "lean-ctx",
+    "shell",
+    "output-compression"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
